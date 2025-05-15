@@ -1,6 +1,8 @@
-# ANIMORA – Virtual Pet Simulation Game
+# ANIMORA – Virtual Pet Simulation Game (Project Scaffold)
 
-Animora is a vibrant, immersive virtual pet simulation game that blends fantasy and realism in a colorful open-world city. The game features a clean, whimsical, cartoon-style aesthetic inspired by games like Animal Crossing and Nintendogs, with an emphasis on joyful, immersive environments.
+This repository contains a scaffold/template for Animora, a vibrant, immersive virtual pet simulation game that blends fantasy and realism in a colorful open-world city. The game features a clean, whimsical, cartoon-style aesthetic inspired by games like Animal Crossing and Nintendogs, with an emphasis on joyful, immersive environments.
+
+**Note:** This is not a complete Unity project. Please follow the setup instructions below to create a proper Unity project using these scaffold files.
 
 ## Tech Stack
 - Unity 2022+
@@ -65,13 +67,44 @@ Animora is a vibrant, immersive virtual pet simulation game that blends fantasy 
 - **QuestSystem.cs**: Quests and achievements
 - **SaveSystem.cs**: Game data persistence
 
-## How to Run
-1. Open the project in Unity Hub (Unity 2022.3 LTS or newer recommended)
-2. Set `MainMenu` as the starting scene
-3. Ensure TextMeshPro packages are imported
-4. Link prefabs to their respective script references in the Inspector
-5. Configure NavMesh for the environments
-6. Hit Play!
+## Project Setup Instructions
+
+### Important Note
+This repository is a scaffold/template and does not contain a complete Unity project structure. You'll need to create a new Unity project and import these files into it.
+
+### Setup Steps
+1. **Create a new Unity project**:
+   - Open Unity Hub
+   - Click "New Project"
+   - Select Unity 2022.3 LTS or newer
+   - Choose "3D" or "3D (URP)" template
+   - Name your project "Animora"
+   - Set location to a directory of your choice
+   - Click "Create Project"
+
+2. **Import the scaffold files**:
+   - Navigate to `p:\Animora_Unity_Scaffold\pet-parent-game\Animora` in your file explorer
+   - Copy all contents from this folder
+   - Paste into your new Unity project's "Assets" folder
+
+3. **Create required folders**:
+   - In your Unity project, create the folder structure as outlined in the "Project Structure" section below
+   - Organize the imported files into their appropriate folders
+
+4. **Configure your project**:
+   - Create and save at least one scene (e.g., MainMenu)
+   - Go to File > Build Settings
+   - Add your scene(s) to the build
+   - Ensure TextMeshPro packages are imported
+   - Configure NavMesh for the environments
+
+5. **Build the project**:
+   - Go to the top menu and click "Build"
+   - Select "Build Windows" to create a standalone executable
+
+6. **Run the game**:
+   - Set your starting scene (e.g., MainMenu)
+   - Hit Play in the Unity Editor to test
 
 ## Project Structure
 ```
